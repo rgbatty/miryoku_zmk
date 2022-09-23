@@ -18,9 +18,9 @@ MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun") \
-MIRYOKU_X(GAME,   "Game") \
-MIRYOKU_X(G_LOWER,   "Game (R)") \
-MIRYOKU_X(G_RAISE,   "Game (L)")
+MIRYOKU_X(G_BASE,   "Game") \
+MIRYOKU_X(G_LOWER,   "Game (L)") \
+MIRYOKU_X(G_RAISE,   "Game (R)")
 
 #define U_BASE   0
 #define U_EXTRA  1
@@ -53,7 +53,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 &kp T,             &kp Q,             &kp W,             &kp E,             &kp R,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
 &kp G,             &kp A,             &kp S,             &kp D,             &kp F,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
 &kp B,             &kp Z,             &kp X,             &kp C,             &kp V,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
-U_NP,              U_NP,              &kp ESC,           &kp SPC,           &lt U_G_LOWER TAB, U_NP,              &to U_BASE,        U_NP,              U_NP,              U_NP
+U_NP,              U_NP,              &kp ESC,           &lt U_G_LOWER SPC, &lt U_G_RAISE TAB, U_NP,              &to U_BASE,        U_NP,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_G_LOWER \
 &kp LALT,          &kp N9,            &kp N0,            &kp MINUS,         &kp UNDER,         U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \

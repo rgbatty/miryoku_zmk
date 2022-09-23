@@ -3,8 +3,8 @@
 
 
 // Build Options
-#define MIRYOKU_ALPHAS_COLEMAKDHK
-#define MIRYOKU_NAV_INVERTEDT
+// #define MIRYOKU_ALPHAS_COLEMAKDHK
+// #define MIRYOKU_NAV_INVERTEDT
 
 // Layers
 #define MIRYOKU_LAYER_LIST \

@@ -63,6 +63,6 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 #define MIRYOKU_LAYER_G_RAISE \
 &kp Y,             &kp P,             &kp O,             &kp I,             &kp U,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
-&kp H,             &kp SEMI           &kp L,             &kp K,             &kp J,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
+&kp H,             &kp SEMI,          &kp L,             &kp K,             &kp J,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
 &kp N,             &kp Z,             &kp X,             &kp C,             &kp V,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_NP,              &to U_BASE,        U_NP,              U_NP,              U_NP

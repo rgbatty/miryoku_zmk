@@ -56,7 +56,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 U_NP,              U_NP,              &kp ESC,           &lt U_G_LOWER SPC, &lt U_G_RAISE TAB, U_NP,              &to U_BASE,        U_NP,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_G_LOWER \
-&kp LALT,          &kp N9,            &kp N0,            &kp MINUS,         &kp UNDER,         U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
+&kp LALT,          &kp N9,            &kp N0,            &kp MINUS,         &kp EQUAL,         U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
 &kp LCTRL,         &kp N1,            &kp N2,            &kp N3,            &kp N4,            U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
 &kp LSHFT,         &kp N5,            &kp N6,            &kp N7,            &kp N8,            U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_NP,              &to U_BASE,        U_NP,              U_NP,              U_NP

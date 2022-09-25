@@ -50,10 +50,10 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 // Added Keymaps
 #define MIRYOKU_LAYER_G_BASE \
-&mt LALT T,             &kp Q,             &kp W,             &kp E,             &kp R,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
-&mt LCTRL G,            &kp A,             &kp S,             &kp D,             &kp F,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
+&mt LALT T,             &kp Q,             &kp W,             &kp E,             &kp R,             U_NP,              U_NP,              &kp UP,            U_NP,              U_NP,             \
+&mt LCTRL G,            &kp A,             &kp S,             &kp D,             &kp F,             U_NP,              &kp LEFT,          &kp DOWN,          &kp RIGHT,         U_NP,             \
 &mt LSHIFT B,           &kp Z,             &kp X,             &kp C,             &kp V,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
-U_NP,              U_NP,              &lt U_G_RAISE ESC, &kp SPC,           &lt U_G_LOWER TAB, U_NP,              &to U_BASE,        U_NP,              U_NP,              U_NP
+U_NP,              U_NP,              &lt U_G_RAISE ESC, &kp SPC,           &lt U_G_LOWER TAB, U_NP,                   U_NP,              &to U_BASE,        U_NP,              U_NP
 
 #define MIRYOKU_LAYER_G_LOWER \
 &kp LALT,          &kp N1,            &kp N2,            &kp N3,            &kp MINUS,         U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \

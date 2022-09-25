@@ -50,15 +50,15 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 // Added Keymaps
 #define MIRYOKU_LAYER_G_BASE \
-&kp T,             &kp Q,             &kp W,             &kp E,             &kp R,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
-&kp G,             &kp A,             &kp S,             &kp D,             &kp F,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
-&kp B,             &kp Z,             &kp X,             &kp C,             &kp V,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
-U_NP,              U_NP,              &kp ESC,           &lt U_G_LOWER SPC, &lt U_G_RAISE TAB, U_NP,              &to U_BASE,        U_NP,              U_NP,              U_NP
+&mt LALT T,             &kp Q,             &kp W,             &kp E,             &kp R,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
+&mt LCTRL G,            &kp A,             &kp S,             &kp D,             &kp F,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
+&mt LSHIFT B,           &kp Z,             &kp X,             &kp C,             &kp V,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
+U_NP,              U_NP,              &lt U_G_RAISE ESC, &kp SPC,           &lt U_G_LOWER TAB, U_NP,              &to U_BASE,        U_NP,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_G_LOWER \
-&kp LALT,          &kp N9,            &kp N0,            &kp MINUS,         &kp EQUAL,         U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
-&kp LCTRL,         &kp N1,            &kp N2,            &kp N3,            &kp N4,            U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
-&kp LSHFT,         &kp N5,            &kp N6,            &kp N7,            &kp N8,            U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
+&kp LALT,          &kp N1,            &kp N2,            &kp N3,            &kp MINUS,         U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
+&kp LCTRL,         &kp N4,            &kp N5,            &kp N6,            &kp EQUAL,            U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
+&kp LSHFT,         &kp N7,            &kp N8,            &kp N9,            &kp N0,            U_NP,              U_NP,              U_NP,              U_NP,              U_NP,             \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_NP,              &to U_BASE,        U_NP,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_G_RAISE \
